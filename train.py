@@ -142,7 +142,7 @@ def main():
     parser.add_argument('-lamda', type=float, default=0.85)  # weight to merge forward and backward predictions
     parser.add_argument('-lr', type=float, default=0.0010)   # learning rate
 
-    parser.add_argument('-data_path', type=str, default='/home/u2089561/my_mounted_disk/data_everything/UCSDped2/training_set/')
+    parser.add_argument('-data_path', type=str, default='./UCSDped2/training_set/')
     parser.add_argument('-save_path', type=str, default='./ckps/') # path to save model checkpoints
     parser.add_argument('-exist_ckp_path', type=str, default='') # path to an existing checkpoint (if available)
 
